@@ -2,13 +2,17 @@ import java.util.Scanner;
 
 public class UjianSkripsiNested18 {
     public static void main(String[] args) {
+
+        // mendeklarasikan sc sebagai scanner
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
+        // mendeklarasikan variable
         String pesan;
+
+        // user menginputkan
         System.out.println("Apakah mahasiswa sudah bebas kompen? (Ya/Tidak): ");
         String bebasKompen = sc.nextLine().trim();
-
         System.out.println("Masukan jumlah log bimbingan Pembimbing 1: ");
         int bimbinganP1 = sc.nextInt();
         System.out.println("Masukan jumlah log bimbingan Pembimbing 2: ");

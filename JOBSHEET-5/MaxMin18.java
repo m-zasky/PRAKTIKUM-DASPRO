@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class MaxMin18 {
     public static void main(String[] args) {
+
+        // mendeklarasikan sc sebagai scanner
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
-        // deklarasi
-        int a, b,c;
+        // deklarasi variable
+        int a, b, c;
         int max, min;
 
         // input tiga bilangan
@@ -36,8 +38,8 @@ public class MaxMin18 {
         }
 
         // output hasil
-        System.out.println("Angka maksimum adalah: " + max);
-        System.out.println("Angka minimum adalah: "+ min);
+        System.out.println("Bilangan maksimum adalah: " + max);
+        System.out.println("Bilangan minimum adalah: "+ min);
 
     }
 }
