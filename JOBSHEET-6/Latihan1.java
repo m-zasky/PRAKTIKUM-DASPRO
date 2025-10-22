@@ -48,8 +48,7 @@ public class Latihan1 {
         int biayaSewaMobil = hargaSewaMobil * lamaSewa;
         totalBiaya = biayaSewaMobil + biayaSupir + biayaBahanBakar;
 
-
-        // output atau hasil
+        // output atau hasil/ rincian
         System.out.println("\n===== RINCIAN BIAYA SEWA =====");
         System.out.println("Lama sewa: " + lamaSewa + " hari");
         System.out.println("Jarak tempuh: " + jarakTempuh + " km");
