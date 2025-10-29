@@ -58,6 +58,7 @@ public class Parkir18 {
 
         System.out.println("=============================");
         System.out.println("Total Penghasilan Parkir: Rp " + total);
+        System.out.println("SEMOGA HARIMU MENYENANGKAN :)");
         System.out.println("=============================");
 
     }
